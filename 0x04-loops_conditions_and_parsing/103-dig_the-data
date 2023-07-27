@@ -1,0 +1,4 @@
+#!/bin/bash
+# Get the IP address, HTTP status code, and the number of occurrences from the Apache log file
+awk '{ip=$1; code=$9; count++; if (ip != prev_ip) {print count, ip, code; prev_ip=ip; count=1}}' apache-access.log | sort -nr
+
