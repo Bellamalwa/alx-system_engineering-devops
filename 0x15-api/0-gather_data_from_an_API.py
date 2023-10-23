@@ -8,6 +8,9 @@ import json
 import requests
 from sys import argv
 
+API_URL = 'https://jsonplaceholder.typicode.com'
+"""The API's URL."""
+
 
 if __name__ == '__main__':
     if len(sys.argv) > 1:
