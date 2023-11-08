@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 Query Reddit API for number of subscribers for a given subreddit
 NOTE: Get user agent:

@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 Query Reddit API for titles of top ten posts of a given subreddit
 NOTE: Get user agent:
